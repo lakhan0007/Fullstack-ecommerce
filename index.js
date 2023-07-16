@@ -3,8 +3,10 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
 const dotenv = require("dotenv");
+const path = require("path");
 const Stripe = require("stripe");
 dotenv.config();
+
 
 const app = express();
 app.use(cors());
